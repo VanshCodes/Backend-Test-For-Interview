@@ -12,7 +12,7 @@ While Client user would have routes like (client-login, client-download, client-
 
 My initial approach was to use a single database with two different collections, one for each user type.
 
-But I am not sure if this is the best approach, since It would make redundunt columns for user types, like is_verified for my client user, and would be a security risk since I would have to map this to the uploaded-files table.
+But I was not sure if this is the best approach, since It would make redundunt columns for user types, like is_verified for my client user, and would be a security risk since I would have to map this to the uploaded-files table.
 
 
 Using JWT Token for basic authentication.
